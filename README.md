@@ -1,5 +1,5 @@
 # IBMsite
-my school web project of 2019
+my school web project of 2019: almost completely tabular site of IBM
 
 online tools that i used:
 1) img-optimization: https://compressor.io/
