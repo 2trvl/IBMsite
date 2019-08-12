@@ -1,4 +1,5 @@
-img-optimization: compressor.io
-font-convertor: everythingfonts.com/font-face
-png to ico converter: redketchup.io/icon-converter
-table of unicode characters: unicode-table.com
+img-optimization: https://compressor.io/
+font-convertor: https://everythingfonts.com/font-face
+png to ico converter: https://redketchup.io/icon-converter
+table of unicode characters: https://unicode-table.com/
+to search for fonts: https://www.1001fonts.com/
