@@ -1,0 +1,153 @@
+html {
+    background: url(images/background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(48, 48, 156);
+}
+
+hr {
+    border: none;  /* Firefox */
+    color: rgb(48, 48, 156);  /* Others */
+    background-color: rgb(44, 182, 170);  /* Firefox | Opera */
+    color: linear-gradient(to left, #0575bc, #0eb3b4);
+    background: linear-gradient(to left, #0575bc, #0eb3b4);
+    height: 1px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+td {
+    border: 0px double black;
+}
+
+li {
+    color: rgb(48, 48, 156);
+}
+
+li span {
+    color: black;
+}
+
+@font-face {
+    font-family: frak;
+    src: url(fonts/frak.ttf) format("truetype"),
+         url(fonts/frak.woff) format("woff"),
+         url(fonts/frak.eot) format("eot");
+}
+
+@font-face {
+    font-family: FiraSans;
+    src: url(fonts/FiraSans.ttf) format("truetype"),
+         url(fonts/FiraSans.woff) format("woff"),
+         url(fonts/FiraSans.eot) format("eot");
+}
+
+@font-face {
+    font-family: FrozenCrystalBold;
+    src: url(fonts/frozencrystalbold.ttf) format("truetype"),
+         url(fonts/frozencrystalbold.woff) format("woff"),
+         url(fonts/frozencrystalbold.eot) format("eot");
+}
+
+.left-img {
+    padding: 0px 20px 10px 0px;
+}
+
+.right-img {
+    padding: 0px 0px 10px 20px;
+}
+
+.center-img-h {
+    padding: 20px 0px 0px 0px;
+}
+
+.center-img-b {
+    padding: 10px 0px 20px 20px;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#header table {
+    width: 80%;
+    border-spacing: 30;
+    margin-left: 15%; 
+    margin-right: auto;
+}
+
+#header td {
+    width: 20%;
+}
+
+#header a, #header p, img {
+    -ms-user-select: none; /* IE */
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#header a, #header p {
+    color: black;
+    text-shadow: 0 0 2.4vw blue;  /* black 0 0 0.05vw, */
+    font-size: 2.5vw;
+    font-family: frak, FiraSans; /* perhaps replacing to another font */
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header p {
+    text-decoration: underline;
+}
+
+#content table {
+    width: 73%;
+    margin-left: auto; 
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+#content td {
+    background-color: white;
+    padding: 0px 20px 10px;
+    font-family: FiraSans;
+    line-height: 1.3;
+}
+
+#footer table {
+    width: 73%;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#footer td {
+    background-color: white;
+    padding: 0px 20px;
+    font-family: FrozenCrystalBold, FiraSans;
+    color: rgb(30, 30, 155);
+    line-height: 1.7;
+}

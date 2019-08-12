@@ -1,0 +1,4 @@
+img-optimization: compressor.io
+font-convertor: everythingfonts.com/font-face
+png to ico converter: redketchup.io/icon-converter
+table of unicode characters: unicode-table.com
