@@ -1,7 +1,10 @@
 # IBMsite
 my school web project of 2019: almost completely tabular site of IBM
 
-online tools i used:
+# Preview
+![alt text](https://raw.githubusercontent.com/2trvl/IBMsite/master/images/preview.gif)
+
+# Online tools i used:
 1) img-optimization: https://compressor.io/
 2) font-convertor: https://everythingfonts.com/font-face
 3) png to ico converter: https://redketchup.io/icon-converter
