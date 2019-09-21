@@ -2,9 +2,7 @@
 my school web project of 2019: almost completely tabular site of IBM
 
 # Preview
-<center>
-<img src="https://raw.githubusercontent.com/2trvl/IBMsite/master/images/preview.gif" alt="loading preview" width="50%">
-</center>
+<img src="https://raw.githubusercontent.com/2trvl/IBMsite/master/images/preview.gif" alt="loading preview" width="70%">
 
 # Online tools i used:
 1) img-optimization: https://compressor.io/
