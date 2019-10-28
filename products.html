@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <title>Products</title>
@@ -8,61 +7,92 @@
         <link rel="stylesheet" type="text/css" href="main.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
+        <script src="./scripts/mobile_menu.js"></script>
     </head>
-
     <body>
-        <div id="header"><table>
-            <tr>
-                <td><a href="index.html"><img src="icon-256.png" width="190" height="190"></a></td>
-                <td></td>
-                <td><p>Products</p></td>
-                <td><a href="about.html">About us</a></td>
-            </tr>
-        </table><br><br></div>
+        <div id="header">
+            <table id="desktop_table">
+                <tr>
+                    <td><a href="./index.html"><span id="logo"></span></a></td>
+                    <td></td>
+                    <td><a href="./products.html">Products</a></td>
+                    <td><a href="./about.html">About us</a></td>
+                </tr>
+            </table>
+            <table id="mobile_table">
+                <tr>
+                    <td><a href="./index.html"><span id="logo_img"></span></a></td>
+                    <td id="tb_mobile"><a><span id="menu_img"></span></a></td>
+                </tr>
+            </table>
+            <br><br>
+        </div>
+        <div id="mobile_menu">
+            <table>
+                <tr>
+                    <td><a><span id="close_mobile_menu"></span></a></td>
+                </tr>
+                <tr>
+                    <td id="first_link"><a href="./products.html">Products</a></td>
+                </tr>
+                <tr>
+                    <td><a href="./about.html">About us</a></td>
+                </tr>
+            </table>
+        </div>
+        <div id="content">
+            <table>
+                <tr>
+                    <td>
+                        <center><img src="images/logo-watson.png" width="400" class="center-img-h"></center>
+                    </td>
+                </tr>
 
-        <div id="content"><table>
-            <tr>
-                <td>
-                    <center><img src="images/logo-watson.png" width="400" class="center-img-h"></center>
-                </td>
-            </tr>
-            
-            <tr>
-                <td>
-                    <hr><br>
-                    <img src="images/services-watson.jpg" width="750" class="center-img-b" align="right">
-                    <ul>
-                        <li><a href="https://www.ibm.com/cloud/watson-openscale/">OpenScale</a></li>
-                        <li><a href="https://www.ibm.com/cloud/watson-assistant/">Assistant</a></li>
-                        <li><a href="https://www.ibm.com/watson/services/discovery/">Discovery</a></li>
-                        <li><a href="https://www.ibm.com/cloud/compare-and-comply">Compare & Comply</a></li>
-                        <br>
-                        <li><a href="https://www.ibm.com/cloud/machine-learning">Machine Learning</a></li>
-                        <li><a href="https://www.ibm.com/cloud/watson-knowledge-catalog">Knowledge Catalog</a></li>
-                        <li><a href="https://www.ibm.com/cloud/watson-studio">Studio</a></li>
-                        <li><a href="https://www.ibm.com/watson/services/discovery-news/">Discovery News</a></li>
-                        <br>
-                        <li><a href="https://www.ibm.com/watson/services/knowledge-studio/">Knowledge Studio</a></li>
-                        <li><a href="https://www.ibm.com/watson/services/language-translator/">Language Translator</a></li>
-                        <li><a href="https://www.ibm.com/watson/services/natural-language-classifier/">Natural Language Classifier</a></li>
-                        <li><a href="https://www.ibm.com/watson/services/natural-language-understanding/">Natural Language Understanding</a></li>
-                        <br>
-                        <li><a href="https://www.ibm.com/watson/services/personality-insights/">Personality Insights</a></li>
-                        <li><a href="https://www.ibm.com/watson/services/speech-to-text/">Speech to Text</a></li>
-                        <li><a href="https://www.ibm.com/watson/services/text-to-speech/">Text to Speech</a></li>
-                        <li><a href="https://www.ibm.com/watson/services/tone-analyzer/">Tone Analyzer</a></li>
-                        <li><a href="https://www.ibm.com/watson/services/visual-recognition/">Visual Recognition</a></li>
-                    </ul>
-                </td>
-            </tr>
-        </table></div>
-
-        <div id="footer"><table>
-            <tr>
-                <td><center>
-                    <p>by Stefan Fisher<br>18.05.2019</p>
-                </center></td>
-            </tr>
-        </table></div>
+                <tr>
+                    <td>
+                        <hr><br>
+                        <img src="images/services-watson.jpg" width="750" class="center-img-b" align="right">
+                        <ul>
+                            <li><a href="https://www.ibm.com/cloud/watson-openscale/">OpenScale</a></li>
+                            <li><a href="https://www.ibm.com/cloud/watson-assistant/">Assistant</a></li>
+                            <li><a href="https://www.ibm.com/watson/services/discovery/">Discovery</a></li>
+                            <li><a href="https://www.ibm.com/cloud/compare-and-comply">Compare & Comply</a></li>
+                            <br>
+                            <li><a href="https://www.ibm.com/cloud/machine-learning">Machine Learning</a></li>
+                            <li><a href="https://www.ibm.com/cloud/watson-knowledge-catalog">Knowledge Catalog</a></li>
+                            <li><a href="https://www.ibm.com/cloud/watson-studio">Studio</a></li>
+                            <li><a href="https://www.ibm.com/watson/services/discovery-news/">Discovery News</a></li>
+                            <br>
+                            <li><a href="https://www.ibm.com/watson/services/knowledge-studio/">Knowledge Studio</a></li>
+                            <li><a href="https://www.ibm.com/watson/services/language-translator/">Language Translator</a>
+                            </li>
+                            <li><a href="https://www.ibm.com/watson/services/natural-language-classifier/">Natural Language
+                                    Classifier</a></li>
+                            <li><a href="https://www.ibm.com/watson/services/natural-language-understanding/">Natural
+                                    Language Understanding</a></li>
+                            <br>
+                            <li><a href="https://www.ibm.com/watson/services/personality-insights/">Personality Insights</a>
+                            </li>
+                            <li><a href="https://www.ibm.com/watson/services/speech-to-text/">Speech to Text</a></li>
+                            <li><a href="https://www.ibm.com/watson/services/text-to-speech/">Text to Speech</a></li>
+                            <li><a href="https://www.ibm.com/watson/services/tone-analyzer/">Tone Analyzer</a></li>
+                            <li><a href="https://www.ibm.com/watson/services/visual-recognition/">Visual Recognition</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="footer">
+            <table>
+                <tr>
+                    <td>
+                        <center>
+                            <p>by Stefan Fisher and Shtraikher.sh<br>28.10.2019</p>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
